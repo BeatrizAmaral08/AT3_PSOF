@@ -92,5 +92,4 @@ export class ItensPedido {
     static editar(dados, id){
         return new ItensPedido(dados.produtoId, dados.quantidade, dados.valorItem, id, dados.pedidoId);
     }
-
 }

@@ -2,6 +2,7 @@ import { Router } from "express";
 import produtoController from "../controllers/produtoController.js";
 import uploadImage from "../middlewares/uploadImage.middlewares.js";
 
+//rotas
 const produtoRoutes = Router();
 
 produtoRoutes.post('/', uploadImage, produtoController.criar);

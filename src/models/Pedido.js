@@ -67,6 +67,5 @@ export class Pedido {
     static editar(dados, id){
         return new Pedido(dados.clienteId, dados.subTotal, dados.status, id);
     }
-
 }
 

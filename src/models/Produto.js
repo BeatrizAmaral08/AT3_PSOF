@@ -38,7 +38,6 @@ export class Produto {
     }
 
 
-
     get nome(){
         return this.#nome;
     }

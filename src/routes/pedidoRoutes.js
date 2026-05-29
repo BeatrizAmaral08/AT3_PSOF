@@ -1,5 +1,7 @@
 import { Router } from "express";
 import pedidoController from "../controllers/pedidoController.js";
+
+//rotas
 const pedidoRoutes = Router();
 
 pedidoRoutes.post('/', pedidoController.criar);
